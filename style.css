@@ -1,7 +1,16 @@
 .btn {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    max-width:275px;
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+    max-width: 275px;
     background-color: rgb(83, 0, 83);
-    color:white;
+    color: white;
 }
+
+.btn-hs {
+    flex-direction: row;
+    border-radius: 4px;
+    background-color: rgb(99, 0, 99);
+    color: white;
+    justify-content: center;
+}
+
